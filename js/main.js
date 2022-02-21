@@ -11,7 +11,7 @@ function calcularPromedio(){
             for(let i = 0; i < array.length; i++){
                 suma += parseInt(array[i].trim());
             }
-            alert("El promedio es: " + (suma/array.length));
+            alert("El promedio es: " + (suma/array.length).toFixed(2));
         } else{
             alert("Solo se permiten números separados por coma.")
         }
